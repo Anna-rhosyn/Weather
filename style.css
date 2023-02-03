@@ -29,6 +29,8 @@ input#ser{
     font-size: 1em;
     border-color:  blueviolet ;
     margin-right: 0;
+    padding:2px;
+    padding-left:1px;
     
 }
 input#ser2{
