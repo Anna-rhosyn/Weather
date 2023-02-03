@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+   background-color: linen;
+    height: 90vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-shadow: .05em .06em gray;
+    color: blueviolet;
+}
+
+input#ser{
+    width: 450px;
+    height: 50px;
+    border-radius: 25px 0px 0px 25px ;
+    color: blueviolet;
+    font-weight: 300;;
+    font-size: 1em;
+    border-color:  blueviolet ;
+    margin-right: 0;
+    
+}
+input#ser2{
+    width: 150px;
+    height: 54px;
+    font-weight: 300;;
+    font-size: 1em;
+    border-radius: 0px 25px 25px 0px ;
+    border-color:  blueviolet ;
+    padding: 10px;
+    margin-left: 0;
+    
+    color: blueviolet;
+}
+input#ser2:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+.weather{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: rgb(220, 128, 224);
+    padding: 30px;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+    opacity: 0.8;
+}
